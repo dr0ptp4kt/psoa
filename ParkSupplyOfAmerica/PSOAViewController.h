@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PSOAViewController : UIViewController
+@interface PSOAViewController : UIViewController <UIWebViewDelegate, UIAlertViewDelegate>
 
 @end

@@ -34,23 +34,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00CFDE1F19964C00003C5F21 /* ParkSupplyOfAmerica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkSupplyOfAmerica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00CFDE1F19964C00003C5F21 /* Park Supply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Park Supply.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00CFDE2219964C00003C5F21 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		00CFDE2419964C00003C5F21 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		00CFDE2619964C00003C5F21 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		00CFDE2A19964C00003C5F21 /* ParkSupplyOfAmerica-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ParkSupplyOfAmerica-Info.plist"; sourceTree = "<group>"; };
+		00CFDE2A19964C00003C5F21 /* Park Supply-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Park Supply-Info.plist"; sourceTree = "<group>"; };
 		00CFDE2C19964C00003C5F21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00CFDE2E19964C00003C5F21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		00CFDE3019964C00003C5F21 /* ParkSupplyOfAmerica-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ParkSupplyOfAmerica-Prefix.pch"; sourceTree = "<group>"; };
+		00CFDE3019964C00003C5F21 /* Park Supply-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Park Supply-Prefix.pch"; sourceTree = "<group>"; };
 		00CFDE3119964C00003C5F21 /* PSOAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSOAAppDelegate.h; sourceTree = "<group>"; };
 		00CFDE3219964C00003C5F21 /* PSOAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSOAAppDelegate.m; sourceTree = "<group>"; };
 		00CFDE3519964C00003C5F21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		00CFDE3A19964C00003C5F21 /* PSOAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSOAViewController.h; sourceTree = "<group>"; };
 		00CFDE3B19964C00003C5F21 /* PSOAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSOAViewController.m; sourceTree = "<group>"; };
 		00CFDE3D19964C00003C5F21 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		00CFDE4319964C00003C5F21 /* ParkSupplyOfAmericaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkSupplyOfAmericaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00CFDE4319964C00003C5F21 /* Park SupplyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Park SupplyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00CFDE4419964C00003C5F21 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		00CFDE4C19964C00003C5F21 /* ParkSupplyOfAmericaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ParkSupplyOfAmericaTests-Info.plist"; sourceTree = "<group>"; };
+		00CFDE4C19964C00003C5F21 /* Park SupplyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Park SupplyTests-Info.plist"; sourceTree = "<group>"; };
 		00CFDE4E19964C00003C5F21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00CFDE5019964C00003C5F21 /* ParkSupplyOfAmericaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParkSupplyOfAmericaTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,8 +92,8 @@
 		00CFDE2019964C00003C5F21 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				00CFDE1F19964C00003C5F21 /* ParkSupplyOfAmerica.app */,
-				00CFDE4319964C00003C5F21 /* ParkSupplyOfAmericaTests.xctest */,
+				00CFDE1F19964C00003C5F21 /* Park Supply.app */,
+				00CFDE4319964C00003C5F21 /* Park SupplyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,10 +126,10 @@
 		00CFDE2919964C00003C5F21 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				00CFDE2A19964C00003C5F21 /* ParkSupplyOfAmerica-Info.plist */,
+				00CFDE2A19964C00003C5F21 /* Park Supply-Info.plist */,
 				00CFDE2B19964C00003C5F21 /* InfoPlist.strings */,
 				00CFDE2E19964C00003C5F21 /* main.m */,
-				00CFDE3019964C00003C5F21 /* ParkSupplyOfAmerica-Prefix.pch */,
+				00CFDE3019964C00003C5F21 /* Park Supply-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,7 +146,7 @@
 		00CFDE4B19964C00003C5F21 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				00CFDE4C19964C00003C5F21 /* ParkSupplyOfAmericaTests-Info.plist */,
+				00CFDE4C19964C00003C5F21 /* Park SupplyTests-Info.plist */,
 				00CFDE4D19964C00003C5F21 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -155,9 +155,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00CFDE1E19964C00003C5F21 /* ParkSupplyOfAmerica */ = {
+		00CFDE1E19964C00003C5F21 /* Park Supply */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00CFDE5419964C00003C5F21 /* Build configuration list for PBXNativeTarget "ParkSupplyOfAmerica" */;
+			buildConfigurationList = 00CFDE5419964C00003C5F21 /* Build configuration list for PBXNativeTarget "Park Supply" */;
 			buildPhases = (
 				00CFDE1B19964C00003C5F21 /* Sources */,
 				00CFDE1C19964C00003C5F21 /* Frameworks */,
@@ -167,14 +167,14 @@
 			);
 			dependencies = (
 			);
-			name = ParkSupplyOfAmerica;
+			name = "Park Supply";
 			productName = ParkSupplyOfAmerica;
-			productReference = 00CFDE1F19964C00003C5F21 /* ParkSupplyOfAmerica.app */;
+			productReference = 00CFDE1F19964C00003C5F21 /* Park Supply.app */;
 			productType = "com.apple.product-type.application";
 		};
-		00CFDE4219964C00003C5F21 /* ParkSupplyOfAmericaTests */ = {
+		00CFDE4219964C00003C5F21 /* Park SupplyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00CFDE5719964C00003C5F21 /* Build configuration list for PBXNativeTarget "ParkSupplyOfAmericaTests" */;
+			buildConfigurationList = 00CFDE5719964C00003C5F21 /* Build configuration list for PBXNativeTarget "Park SupplyTests" */;
 			buildPhases = (
 				00CFDE3F19964C00003C5F21 /* Sources */,
 				00CFDE4019964C00003C5F21 /* Frameworks */,
@@ -185,9 +185,9 @@
 			dependencies = (
 				00CFDE4919964C00003C5F21 /* PBXTargetDependency */,
 			);
-			name = ParkSupplyOfAmericaTests;
+			name = "Park SupplyTests";
 			productName = ParkSupplyOfAmericaTests;
-			productReference = 00CFDE4319964C00003C5F21 /* ParkSupplyOfAmericaTests.xctest */;
+			productReference = 00CFDE4319964C00003C5F21 /* Park SupplyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +208,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 00CFDE1A19964C00003C5F21 /* Build configuration list for PBXProject "ParkSupplyOfAmerica" */;
+			buildConfigurationList = 00CFDE1A19964C00003C5F21 /* Build configuration list for PBXProject "Park Supply" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -221,8 +221,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				00CFDE1E19964C00003C5F21 /* ParkSupplyOfAmerica */,
-				00CFDE4219964C00003C5F21 /* ParkSupplyOfAmericaTests */,
+				00CFDE1E19964C00003C5F21 /* Park Supply */,
+				00CFDE4219964C00003C5F21 /* Park SupplyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -272,7 +272,7 @@
 /* Begin PBXTargetDependency section */
 		00CFDE4919964C00003C5F21 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 00CFDE1E19964C00003C5F21 /* ParkSupplyOfAmerica */;
+			target = 00CFDE1E19964C00003C5F21 /* Park Supply */;
 			targetProxy = 00CFDE4819964C00003C5F21 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -385,10 +385,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ParkSupplyOfAmerica/ParkSupplyOfAmerica-Prefix.pch";
-				INFOPLIST_FILE = "ParkSupplyOfAmerica/ParkSupplyOfAmerica-Info.plist";
+				GCC_PREFIX_HEADER = "ParkSupplyOfAmerica/Park Supply-Prefix.pch";
+				INFOPLIST_FILE = "ParkSupplyOfAmerica/Park Supply-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Park Supply";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -402,10 +402,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ParkSupplyOfAmerica/ParkSupplyOfAmerica-Prefix.pch";
-				INFOPLIST_FILE = "ParkSupplyOfAmerica/ParkSupplyOfAmerica-Info.plist";
+				GCC_PREFIX_HEADER = "ParkSupplyOfAmerica/Park Supply-Prefix.pch";
+				INFOPLIST_FILE = "ParkSupplyOfAmerica/Park Supply-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Park Supply";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -426,8 +426,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ParkSupplyOfAmericaTests/ParkSupplyOfAmericaTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ParkSupplyOfAmericaTests/Park SupplyTests-Info.plist";
+				PRODUCT_NAME = "Park SupplyTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -444,8 +444,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ParkSupplyOfAmerica/ParkSupplyOfAmerica-Prefix.pch";
-				INFOPLIST_FILE = "ParkSupplyOfAmericaTests/ParkSupplyOfAmericaTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ParkSupplyOfAmericaTests/Park SupplyTests-Info.plist";
+				PRODUCT_NAME = "Park SupplyTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -454,7 +454,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00CFDE1A19964C00003C5F21 /* Build configuration list for PBXProject "ParkSupplyOfAmerica" */ = {
+		00CFDE1A19964C00003C5F21 /* Build configuration list for PBXProject "Park Supply" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00CFDE5219964C00003C5F21 /* Debug */,
@@ -463,7 +463,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00CFDE5419964C00003C5F21 /* Build configuration list for PBXNativeTarget "ParkSupplyOfAmerica" */ = {
+		00CFDE5419964C00003C5F21 /* Build configuration list for PBXNativeTarget "Park Supply" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00CFDE5519964C00003C5F21 /* Debug */,
@@ -472,7 +472,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00CFDE5719964C00003C5F21 /* Build configuration list for PBXNativeTarget "ParkSupplyOfAmericaTests" */ = {
+		00CFDE5719964C00003C5F21 /* Build configuration list for PBXNativeTarget "Park SupplyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00CFDE5819964C00003C5F21 /* Debug */,

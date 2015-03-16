@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00CFDE1E19964C00003C5F21"
-               BuildableName = "ParkSupplyOfAmerica.app"
-               BlueprintName = "ParkSupplyOfAmerica"
-               ReferencedContainer = "container:ParkSupplyOfAmerica.xcodeproj">
+               BuildableName = "Park Supply.app"
+               BlueprintName = "Park Supply"
+               ReferencedContainer = "container:Park Supply.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00CFDE4219964C00003C5F21"
-               BuildableName = "ParkSupplyOfAmericaTests.xctest"
-               BlueprintName = "ParkSupplyOfAmericaTests"
-               ReferencedContainer = "container:ParkSupplyOfAmerica.xcodeproj">
+               BuildableName = "Park SupplyTests.xctest"
+               BlueprintName = "Park SupplyTests"
+               ReferencedContainer = "container:Park Supply.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "00CFDE1E19964C00003C5F21"
-            BuildableName = "ParkSupplyOfAmerica.app"
-            BlueprintName = "ParkSupplyOfAmerica"
-            ReferencedContainer = "container:ParkSupplyOfAmerica.xcodeproj">
+            BuildableName = "Park Supply.app"
+            BlueprintName = "Park Supply"
+            ReferencedContainer = "container:Park Supply.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -58,13 +58,14 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "00CFDE1E19964C00003C5F21"
-            BuildableName = "ParkSupplyOfAmerica.app"
-            BlueprintName = "ParkSupplyOfAmerica"
-            ReferencedContainer = "container:ParkSupplyOfAmerica.xcodeproj">
+            BuildableName = "Park Supply.app"
+            BlueprintName = "Park Supply"
+            ReferencedContainer = "container:Park Supply.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -76,13 +77,14 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "00CFDE1E19964C00003C5F21"
-            BuildableName = "ParkSupplyOfAmerica.app"
-            BlueprintName = "ParkSupplyOfAmerica"
-            ReferencedContainer = "container:ParkSupplyOfAmerica.xcodeproj">
+            BuildableName = "Park Supply.app"
+            BlueprintName = "Park Supply"
+            ReferencedContainer = "container:Park Supply.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

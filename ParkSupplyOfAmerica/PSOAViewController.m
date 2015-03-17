@@ -24,7 +24,7 @@
 
 @implementation PSOAViewController
 
-- (void)loadPageWith:(NSString *)url
+- (void)loadPageWithUrlString:(NSString *)url
 {
     NSURL* u = [NSURL URLWithString:url];
     NSURLRequest *req = [NSURLRequest requestWithURL:u];
@@ -47,7 +47,7 @@
     [self.forwardButton setTitleTextAttributes:font forState:UIControlStateNormal];
     [self updateNavigability];
     self.latestUrl = kStartingUrl;
-    [self loadPageWith:self.latestUrl];
+    [self loadPageWithUrlString:self.latestUrl];
 }
 
 -(BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
@@ -60,9 +60,6 @@
 -(void)webViewDidFinishLoad:(UIWebView *)webView
 {
     [self.spinner stopAnimating];
-    self.hasFirstPageLoaded = true;
-    self.latestUrl = [webView.request.mainDocumentURL absoluteString];
-    [self updateNavigability];
     NSString *currentPath = webView.request.mainDocumentURL.path;
     [webView stringByEvaluatingJavaScriptFromString:@"document.body.style.webkitTouchCallout='none'; document.body.style.KhtmlUserSelect='none'"];
     [webView stringByEvaluatingJavaScriptFromString:@"document.body.setAttribute('style', 'margin:0; padding:0')"];
@@ -70,6 +67,10 @@
     if ([self.scaleDownPaths containsObject:currentPath]) {
         [webView stringByEvaluatingJavaScriptFromString:@"document.querySelector('meta[name=viewport]\').setAttribute('content', 'width=device-width, initial-scale=0.8, user-scalable=yes')"];
     }
+    
+    self.hasFirstPageLoaded = true;
+    self.latestUrl = [webView.request.mainDocumentURL absoluteString];
+    [self updateNavigability];
 }
 
 
@@ -88,7 +89,7 @@
 
 - (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error
 {
-
+    
     if (error.code == NSURLErrorCancelled) {
         return; // user likely clicked link of submitted form while loading
     }
@@ -111,7 +112,7 @@
 -(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
     if (!self.hasFirstPageLoaded) {
-        [self loadPageWith:self.latestUrl];
+        [self loadPageWithUrlString:self.latestUrl];
     } else {
         [self updateNavigability];
     }

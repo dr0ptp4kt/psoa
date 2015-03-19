@@ -18,7 +18,6 @@
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *spinner;
 @property (strong, nonatomic) NSString* latestUrl;
 @property (nonatomic) BOOL hasFirstPageLoaded;
-@property NSArray *scaleDownPaths;
 
 @end
 
@@ -34,7 +33,7 @@
 -(void)viewDidLoad
 {
     [super viewDidLoad];
-    self.scaleDownPaths = @[@"/Qorderentm.php", @"/cart2m.php", @"/productm.php"];
+
     NSString *kStartingUrl = @"http://www.parksupplyofamerica.com/mobet.php";
     self.webView.delegate = self;
     UIFont* systemFont = [UIFont systemFontOfSize:12.0];
@@ -52,6 +51,14 @@
 
 -(BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
 {
+    if (navigationType == UIWebViewNavigationTypeLinkClicked) {
+        NSString *host = [[[request URL] host] lowercaseString];
+        if (!([host isEqualToString:@"parksupplyofamerica.com"] ||
+              [host isEqualToString:@"www.parksupplyofamerica.com"])) {
+            [[UIApplication sharedApplication] openURL:[request URL]];
+            return NO;
+        }
+    }
     [self disableButtons];
     [self.spinner startAnimating];
     return true;
@@ -60,13 +67,9 @@
 -(void)webViewDidFinishLoad:(UIWebView *)webView
 {
     [self.spinner stopAnimating];
-    NSString *currentPath = webView.request.mainDocumentURL.path;
     [webView stringByEvaluatingJavaScriptFromString:@"document.body.style.webkitTouchCallout='none'; document.body.style.KhtmlUserSelect='none'"];
     [webView stringByEvaluatingJavaScriptFromString:@"document.body.setAttribute('style', 'margin:0; padding:0')"];
-    
-    if ([self.scaleDownPaths containsObject:currentPath]) {
-        [webView stringByEvaluatingJavaScriptFromString:@"document.querySelector('meta[name=viewport]\').setAttribute('content', 'width=device-width, initial-scale=0.8, user-scalable=yes')"];
-    }
+    [webView stringByEvaluatingJavaScriptFromString:@"document.querySelector('meta[name=viewport]\').setAttribute('content', 'width=device-width, initial-scale=0.8, user-scalable=yes')"];
     
     self.hasFirstPageLoaded = true;
     self.latestUrl = [webView.request.mainDocumentURL absoluteString];
